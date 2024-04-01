@@ -3,6 +3,10 @@ import { ScrollView, StyleSheet, Image, Text, View } from 'react-native';
 import Cat from './components/Cat';
 import State from './components/State';
 import PizzaTranslator from './components/PizzaTranslator';
+import FlatListBasic from './components/FlatListBasic';
+import SectionListBasic from './components/SectionListBasic';
+import FetchExample from './components/FetchExample';
+import CountButton from './components/CountButton';
 
 const logo = {
   uri: 'https://reactnative.dev/img/tiny_logo.png',
@@ -13,6 +17,14 @@ const logo = {
 export default function App() {
   return (
     <ScrollView>
+      <Image source={logo} />
+      <CountButton />
+      <Image source={logo} />
+      <FetchExample />
+      <Image source={logo} />
+      <SectionListBasic />
+      <Image source={logo} />
+      <FlatListBasic />
       <Image source={logo} />
       <PizzaTranslator />
       <Image source={logo} />
