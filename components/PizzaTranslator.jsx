@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, Image, ScrollView, TextInput } from "react-native";
+import { View, Text, Image, ScrollView, TextInput, Button } from "react-native";
 
 export default function Cat(props) {
     const [text, setText] = useState('');

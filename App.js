@@ -7,6 +7,7 @@ import FlatListBasic from './components/FlatListBasic';
 import SectionListBasic from './components/SectionListBasic';
 import FetchExample from './components/FetchExample';
 import CountButton from './components/CountButton';
+import Ex_fruitList from './components/Ex_fruitList';
 
 const logo = {
   uri: 'https://reactnative.dev/img/tiny_logo.png',
@@ -18,6 +19,8 @@ export default function App() {
   return (
     <ScrollView>
       <Image source={logo} />
+      <Ex_fruitList />
+      {/* <Image source={logo} />
       <CountButton />
       <Image source={logo} />
       <FetchExample />
@@ -31,7 +34,7 @@ export default function App() {
       <State name='asdf' />
       <Cat name='one cat' num='1' />
       <Cat name='two cat' num='2' />
-      <Image source={logo} />
+      <Image source={logo} /> */}
     </ScrollView>
   );
 }
